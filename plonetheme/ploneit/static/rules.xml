@@ -1,0 +1,29 @@
+<rules
+    xmlns="http://namespaces.plone.org/diazo"
+    xmlns:css="http://namespaces.plone.org/diazo/css"
+    xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
+
+    <theme href="index.html" css:if-content="#visual-portal-wrapper"/>
+    <prepend content='/html/head' theme='/html/head' />
+    <copy attributes="class dir" css:theme="body" css:content="body"/>
+    <prepend content='/html/body' theme='/html/body' />
+
+    <!--append theme="/html/head">
+        <link href="/++theme++plonetheme.ploneit/ploneCustom.css"
+            media="screen"
+            type="text/css"
+            rel="stylesheet" />
+    </append-->
+
+    <append theme="/html/head">
+        <link href="/++theme++plonetheme.ploneit/plone-integration.css"
+            media="screen"
+            type="text/css"
+            rel="stylesheet" />
+    </append>
+
+    <replace css:content="#portal-logo img">
+        <img width="400" height="71" title="" alt="" src="/++theme++plonetheme.ploneit/logo.png" />
+    </replace>
+
+</rules>

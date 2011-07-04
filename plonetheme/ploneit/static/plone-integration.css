@@ -1,0 +1,281 @@
+/* - ploneCustom.css - */
+@media all {
+/*  (do not remove this :) */
+/*  (not this either :) */
+
+a{
+ color: #0089D9;
+}
+
+.state-published{
+color: #0089D9 !important;
+}
+dl.portlet {
+    font-size: 74%;
+}
+
+#visual-portal-wrapper{
+ width:960px;
+ margin:0 auto;
+}
+
+#searchGadget {
+ border: 1px solid #CACACA;
+}
+#portal-searchbox { 
+    width: 22em;
+    height: 8em;
+}
+
+input.searchButton, form.searchPage input.searchButton {
+    background: url("images/search_icon.gif") no-repeat scroll 0 50% #FFFFFF;
+    border: medium none;
+    margin-left: 10px;
+    margin-top: 0.1em;
+    padding-left: 7px;
+    text-transform: uppercase;
+    font-size:76%;
+}
+
+#portal-globalnav li a {
+ background: none repeat scroll 0 0 transparent;
+ color: #747476;
+ text-transform: uppercase;
+ padding:0;
+ min-width: 0px;
+ font-weight:bold;
+}
+#portal-globalnav li{
+ border-left: 1px solid #747476;
+ padding: 0 1em;
+}
+#portal-globalnav li:first-child{
+ border-left:0px;
+}
+ul#portal-globalnav {
+ background:transparent;
+}
+#portal-globalnav .selected a, #portal-globalnav a:hover{
+ background:transparent;
+ color: #0089D9;
+ text-decoration:underline;
+}
+
+.searchSection, #siteaction-credits {
+    display: none;
+}
+
+#portal-logo {
+ margin-top:0.6em;
+ margin-bottom:2em;
+}
+
+/***PORTLET***/
+.portletHeader {
+    text-transform: uppercase;
+}
+.portletHeader a {
+ color: #383D3F;
+ font-weight:normal;
+}
+dl.portlet dt, div.portletAssignments div.portletHeader {
+    background: none repeat scroll 0 0 transparent;
+}
+dl.portlet ul.navTreeLevel0 > .navTreeItem {
+    border-bottom: 0px;
+    padding: 0em 1em;
+}
+.navTreeItem a:hover, dd.portletItem .navTreeItem:hover {
+ background-color: #0089D9;
+}
+.navTreeItem a:hover, dd.portletItem .navTreeItem a:hover {
+ color: #ffffff !important;
+}
+
+dl.portlet ul.navTree .navTreeCurrentItem {
+ background-color: #0089D9;
+ border-left: 1em solid #0089D9;
+ color:#FFF !important;
+}
+
+.portletFooter a {
+    color: Orange !important;
+}
+.portletFooter a:visited {
+    color: Orange;
+}
+
+.portletFooter {
+    border: none !important;
+}
+
+.portletNews .portletHeader {
+    background: url("images/contenttypes-sprite.png") no-repeat scroll 0 -1292px transparent;
+    padding-left: 18px;
+}
+
+/***FOOTER***/
+
+#portal-footer {
+    background: none repeat scroll 0 0 #0089D9;
+}
+#portal-footer a{
+ color:#FFF;
+}
+
+#portal-footer {
+  border-top:1px solid #004488;
+  height:18em;
+  padding:1em 4em;
+  text-align:left;
+}
+#portal-footer h3 { 
+  color: white;
+  font-size: 140%;
+  font-weight: normal;
+}
+#portal-footer ul {
+  list-style-type:none;
+  padding-left: 0.5em
+}
+#portal-footer .cell {
+  float: left;
+  width: 12em;
+  padding: 0 1em;
+}
+#portal-footer #site-about {
+  font-size: 80%;
+  width: 24em;
+}
+
+/***CONTENT_TYPES***/
+.icons-on .contenttype-folder,
+.icons-on #plone-contentmenu-factories .contenttype-folder{
+ background: url("images/contenttypes-sprite.png") no-repeat scroll 0 -644px transparent;
+}
+.icons-on .contenttype-news-item,
+.icons-on #plone-contentmenu-factories .contenttype-news-item{
+ background: url("images/contenttypes-sprite.png") no-repeat scroll 0 -1292px transparent;
+}
+.icons-on .contenttype-document,
+.icons-on #plone-contentmenu-factories .contenttype-document{
+ background: url("images/contenttypes-sprite.png") no-repeat scroll 0 4px transparent;
+}
+.icons-on .contenttype-link,
+.icons-on #plone-contentmenu-factories .contenttype-link{
+ background: url("images/contenttypes-sprite.png") no-repeat scroll 0 -1076px transparent;
+}
+.icons-on .contenttype-image,
+.icons-on #plone-contentmenu-factories .contenttype-image{
+ background: url("images/contenttypes-sprite.png") no-repeat scroll 0 -860px transparent;
+}
+.icons-on .contenttype-file,
+.icons-on #plone-contentmenu-factories .contenttype-file{
+ background: url("images/contenttypes-sprite.png") no-repeat scroll 0 -428px transparent;
+}
+.icons-on .contenttype-topic,
+.icons-on #plone-contentmenu-factories .contenttype-topic{
+ background: url("images/contenttypes-sprite.png") no-repeat scroll 0 -1724px transparent;
+}
+.icons-on .contenttype-event {
+ background: url("images/contenttypes-sprite.png") no-repeat scroll 0 -212px transparent;
+}
+
+/***CONTENT***/
+
+#content h1.documentFirstHeading {
+ font-weight:normal;
+ font-size: 200%;
+}
+.documentActions {
+    float: right;
+    margin-right: 1em;
+    text-decoration: none;    
+}
+.documentActions li {
+    list-style: none;
+    display: inline;
+    margin-left: 1em;
+}
+
+.splash {
+    background:url("images/frontpage-image.png") no-repeat scroll 0 115px #9CB819;
+    color: #383D3F;
+    font-family:"Helvetica Neue",Arial,FreeSans,sans-serif;
+    font-size: 110%;
+    margin-bottom:1em;
+    padding:1em 1.5em 5px;
+    display: block;
+    -moz-border-radius:0.5em;
+    -webkit-border-radius: 0.5em;
+}
+#home-banner a {
+    float: right;
+/*    color: #383D3F; */
+    margin-top: 5em;
+    border:medium none;
+    text-decoration:none;
+    font-size:1.375em;
+    font-weight:bold;
+    padding-left:16px;
+    padding-right: 16px;
+    color:white !important;
+	border-bottom:0px !important;
+    text-shadow:1px 2px #424242;
+    background: url("images/arrow.gif") no-repeat scroll right 3px transparent;
+}
+
+div.grid-cell {
+  float: left;
+  left:100%;
+  position: relative;
+}
+#portlet-banner{
+    width: 14.5em;
+    margin-top:1em;
+}
+
+a.download {
+    background: url("images/download-plone.png") no-repeat scroll center top white;
+    clear: both;
+    color: white !important;
+    display: block;
+    font-size: 128%;
+    height: 43px;
+    line-height: 40px;
+    margin: 27px 0 0;
+    padding: 1px 10px 0 46px;
+}
+
+#banner-scopri-wrapper p a,
+#banner-scopri-wrapper p a:visited,
+#banner-scopri-wrapper p a:hover {
+    color: white;
+    font-style: italic;
+    text-decoration: none;
+    text-shadow: 1px 2px #424242;
+}
+code, tt {
+    background-color: #0089D9;
+    color:#FFF;
+    font-family: Monaco,"Courier New",Courier,monospace;
+    font-size: 120%;
+    padding: 0 0.1em;
+}
+
+
+.external_plonesite {
+  background-image: url("images/ico_link.gif") no-repeat scroll 0 0 transparent;
+  background-repeat: no-repeat;
+  padding-left: 20px;
+}
+
+#portlet-scopri-wrapper, #portlet-home-wrapper {
+    clear: both;
+    float: none;
+    margin: 0;
+    padding: 0.2em 4.7em 0;
+}
+
+/*  */
+}
