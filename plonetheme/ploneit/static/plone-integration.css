@@ -24,7 +24,7 @@ dl.portlet {
 }
 #portal-searchbox { 
     width: 22em;
-    height: 8em;
+    height: 5em;
 }
 
 input.searchButton, form.searchPage input.searchButton {
@@ -78,17 +78,20 @@ ul#portal-globalnav {
  color: #383D3F;
  font-weight:normal;
 }
-dl.portlet dt, div.portletAssignments div.portletHeader {
+dl.portlet dt
+/*div.portletAssignments div.portletHeader*/
+{
     background: none repeat scroll 0 0 transparent;
 }
 dl.portlet ul.navTreeLevel0 > .navTreeItem {
     border-bottom: 0px;
     padding: 0em 1em;
 }
-.navTreeItem a:hover, dd.portletItem .navTreeItem:hover {
+.navTreeItem a:hover /*, dd.portletItem .navTreeItem:hover {*/
+{
  background-color: #0089D9;
 }
-.navTreeItem a:hover, dd.portletItem .navTreeItem a:hover {
+.navTreeItem a:hover , dd.portletItem .navTreeItem a:hover {
  color: #ffffff !important;
 }
 
@@ -199,7 +202,7 @@ dl.portlet ul.navTree .navTreeCurrentItem {
 }
 
 .splash {
-    background:url("images/frontpage-image.png") no-repeat scroll 0 115px #9CB819;
+    background:url("images/frontpage-image.png") no-repeat scroll 0 120px #9CB819;
     color: #383D3F;
     font-family:"Helvetica Neue",Arial,FreeSans,sans-serif;
     font-size: 110%;
@@ -233,6 +236,7 @@ div.grid-cell {
 #portlet-banner{
     width: 14.5em;
     margin-top:1em;
+    margin-left: -17%;
 }
 
 a.download {
@@ -277,5 +281,28 @@ code, tt {
     padding: 0.2em 4.7em 0;
 }
 
+#home-banner {
+    height: 22em;
+    margin-right: 1em;
+    width: 51em;
+    left: 99%;
+}
+
+#LSResult{
+   margin-top: 0px;
+}
+
+.section-new-home-page #parent-fieldname-title,
+.section-new-home-page #parent-fieldname-description{display:none;}
+
+.div-highlight {
+    background-color: #EFF0F1;
+    border-radius: 0.5em 0.5em 0.5em 0.5em;
+    margin: 0 7px 7px;
+    padding: 2px 10px;
+}
+#banner-plog2011 a{
+    border-bottom:0px !important;
+}
 /*  */
 }
